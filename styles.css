@@ -1,0 +1,49 @@
+/* Global Styling */
+body {
+    background-image: url('earth.jpg'); /* Default idle state */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Dynamic Background Blur */
+  .background-blur {
+    filter: blur(10px);
+  }
+  
+  /* Transition for Smooth Theme Change */
+  .theme-transition {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* Footer Styling */
+  footer {
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+  }
+  
+  footer a {
+    transition: background-color 0.3s;
+  }
+  
+  footer a:hover {
+    background-color: #4e4e4e;
+  }
+  
+  footer img {
+    transition: transform 0.2s;
+  }
+  
+  footer img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Mobile-First Design */
+  @media (min-width: 640px) {
+    body {
+      padding: 1rem;
+    }
+  }
+  
